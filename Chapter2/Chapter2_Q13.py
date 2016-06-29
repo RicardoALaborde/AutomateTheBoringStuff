@@ -1,3 +1,5 @@
+#Programming Challenge from chapter 2
+#Author: Ricardo Laborde
 #program to write 1 to 10 using for loop
 #for i in range(11):
 #	print(i)
