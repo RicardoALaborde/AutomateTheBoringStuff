@@ -2,10 +2,13 @@
 #Author: Ricardo Laborde
 
 def collatz(number):
-	if number % 2 ==0: #if even
-		return number//2 #return division of even
-	else: #if odd
-		return 3*number+1 #return odd *3+1
+	if number != 0:
+		if number % 2 ==0: #if even
+			return number//2 #return division of even
+		else: #if odd
+			return 3*number+1 #return odd *3+1
+	else:
+		print('You can\'t divide by 0!!!')
 
 print("Enter a Number")
 try: #validate if user is entering an int
