@@ -27,6 +27,7 @@ def printTable(table):
 		#empty the lengthOfList list
 		del lengthOfList[:]
 	#not the prettiest solution, but it works
+	#go through each list individually
 	m=0
 	for l in range(len(table[0])):
 		print(table[0][m].rjust(maxLength[0]),table[1][m].rjust(maxLength[1]),table[2][m].rjust(maxLength[2]))
