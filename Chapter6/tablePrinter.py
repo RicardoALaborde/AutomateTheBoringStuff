@@ -22,12 +22,14 @@ def printTable(table):
 			lengthOfList.append(len(i))
 		#get the max length inside the list
 		maxLength[c]=max(lengthOfList)
-		for b in table[c]:
-			print('\n'.join([b.rjust(maxLength[c])]))
-		 #increase the counter that iterates through each list by 1
-		c+=1
+		c+=1	
+		
 		#empty the lengthOfList list
 		del lengthOfList[:]
-	#print each list justified to the right
-	print(maxLength)
+	#not the prettiest solution, but it works
+	m=0
+	for l in range(len(table[0])):
+		print(table[0][m].rjust(maxLength[0]),table[1][m].rjust(maxLength[1]),table[2][m].rjust(maxLength[2]))
+		m+=1
+
 printTable(tableData)
