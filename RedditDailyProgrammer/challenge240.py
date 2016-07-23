@@ -5,6 +5,7 @@ the mind's ability to decipher a mis-spelled word if the first
  and last letters of the word are correct.
 
 Idea by: /u/lepickle
+Taken from: https://www.reddit.com/r/dailyprogrammer/comments/3s4nyq/20151109_challenge_240_easy_typoglycemia/
 
 Author: Ricardo Laborde
 '''
