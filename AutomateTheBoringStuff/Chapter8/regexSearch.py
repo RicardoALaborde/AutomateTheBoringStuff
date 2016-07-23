@@ -1,6 +1,8 @@
 '''
 Write a program that opens all .txt files in a folder and searches for any line that matches a user-supplied regular expression.
 The results should be printed to the screen.
+
+Author: Ricardo Laborde
 '''
 import re,os
 
@@ -36,4 +38,3 @@ try:
         print('You did not enter a valid option. (Y\\N\\X)')
 except ValueError:
    print('Error')
-

@@ -39,6 +39,8 @@ The silly panda walked to the chandelier and then screamed. A nearby pickup
 truck was unaffected by these events.
 
 The results should be printed to the screen and saved to a new text file.
+
+Author: Ricardo Laborde
 '''
 
 import re
@@ -65,4 +67,3 @@ print('.'.join(''.join(sentenceToReplace).split(' .')))
 fileToWrite.write('.'.join(''.join(sentenceToReplace).split(' .')))
 fileToRead.close()
 fileToWrite.close()
-

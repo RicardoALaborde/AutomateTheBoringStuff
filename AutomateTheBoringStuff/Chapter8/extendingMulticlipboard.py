@@ -1,12 +1,16 @@
 '''
-Extend the multiclipboard program in this chapter so that it has a delete <keyword> command line argument that will delete a keyword from the shelf. Then add a delete command line argument that will delete all keywords.
+Extend the multiclipboard program in this chapter so that it has a delete <keyword> command line
+ argument that will delete a keyword from the shelf. Then add a delete command line argument that
+  will delete all keywords.
+
+  Author: Ricardo Laborde
 '''
 
 import shelve,pyperclip,sys
 
 mcbShelf=shelve.open('mcb')
 
-#if there are 3 arguments given, and the first argument 
+#if there are 3 arguments given, and the first argument
 #contains the word 'save', the second argument is
 #the keyword we want to use to save clipboard items to the
 #mcb
@@ -29,5 +33,3 @@ elif len(sys.argv) == 2:
     elif sys.argv[1] in mcbShelf:
         pyperclip.copy(mcbShelf[sys.argv[1]])
 mcbShelf.close()
-
-
