@@ -244,3 +244,8 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
 3. [**2048**](./Chapter11/2048.py)
 
   2048 is a simple game where you combine tiles by sliding them up, down, left, or right with the arrow keys. You can actually get a fairly high score by repeatedly sliding in an up, right, down, and left pattern over and over again. Write a program that will open the game at https://gabrielecirulli.github.io/2048/ and keep sending up, right, down, and left keystrokes to automatically play the game.
+
+4. **Link Verification**
+
+  Write a program that, given the URL of a web page, will attempt to download every linked page on the page. The program should flag any pages that have a 404 “Not Found” status code and print them out as broken links.
+  
