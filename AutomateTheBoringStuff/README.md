@@ -2,19 +2,29 @@
 
 Programming Challenges from the book:
 
+CHAPTERS|LINK TO BOOK|LINK TO SOLUTIONS
+--------|-----|-------
+Chapter 1|[Link to Page](https://automatetheboringstuff.com/chapter1/)|No Projects in this Chapter
+Chapter 2|[Link to Page](https://automatetheboringstuff.com/chapter2/)|[Solutions](./Chapter2/)
+Chapter 3|[Link to Page](https://automatetheboringstuff.com/chapter3/)|[Solutions](./Chapter3/)
+Chapter 4|[Link to Page](https://automatetheboringstuff.com/chapter4/)|[Solutions](./Chapter4/)
+Chapter 5|[Link to Page](https://automatetheboringstuff.com/chapter5/)|[Solutions](./Chapter5/)
+Chapter 6|[Link to Page](https://automatetheboringstuff.com/chapter6/)|[Solutions](./Chapter6/)
+Chapter 7|[Link to Page](https://automatetheboringstuff.com/chapter7/)|[solutions](./Chapter7/)
+
 ###Chapter 1: Python Basics###
   
-* No challenges for this chapter
+* **No challenges for this chapter**
   
 ###Chapter 2: Flow Control###
   
-1. [Quesiton 13](./Chapter2/Chapter2_Q13.py)
+1. [**Quesiton 13**](./Chapter2/Chapter2_Q13.py)
 
   Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
 
 ###Chapter 3: Functions###
 
-1. [The Collatz Sequence](./Chapter3/CollatzChallenge.py)
+1. [**The Collatz Sequence**](./Chapter3/CollatzChallenge.py)
 
   Write a function named collatz() that has one parameter named number. If number is even, then collatz() should print number // 2 and return this value. If number is odd, then collatz() should print and return 3 * number + 1.
   
@@ -25,11 +35,11 @@ Programming Challenges from the book:
 
 ###Chapter 4: Lists###
 
-1. [Comma Code](./Chapter4/CommaCode.py)
+1. [**Comma Code**](./Chapter4/CommaCode.py)
 
   Write a function that takes a list value as an argument and returns a string with all the items separated by a comma and a space, with and inserted before the last item. For example, passing the previous spam list to the function would return 'apples, bananas, tofu, and cats'. But your function should be able to work with any list value passed to it.
   
-2. [Character Picture Grid](./Chapter4/CharacterPictureGrid.py)
+2. [**Character Picture Grid**](./Chapter4/CharacterPictureGrid.py)
 
   Say you have a list of lists where each value in the inner lists is a one-character string, like this:
 
@@ -67,7 +77,7 @@ Programming Challenges from the book:
 
 ###Chapter 5: Dictionaries and Structuring Data###
 
-1. [Fantasy Game Inventory](./Chapter5/fantasyGameInventory.py)
+1. [**Fantasy Game Inventory**](./Chapter5/fantasyGameInventory.py)
 
   You are creating a fantasy video game. The data structure to model the player’s inventory will be a dictionary where the keys are string values describing the item in the inventory and the value is an integer value detailing how many of that item the player has. For example, the dictionary value {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12} means the player has 1 rope, 6 torches, 42 gold coins, and so on.
   
@@ -81,7 +91,7 @@ Programming Challenges from the book:
       1 dagger
       Total number of items: 62
 
-2. [List to Dictionary Function for Fantasy Game Inventory](./Chapter5/addToInventory.py)
+2. [**List to Dictionary Function for Fantasy Game Inventory**](./Chapter5/addToInventory.py)
 
   Imagine that a vanquished dragon’s loot is represented as a list of strings like this:
 
@@ -108,7 +118,7 @@ Programming Challenges from the book:
 
 ###Chapter 6: Manipulating Strings###
 
-1. [Table Printer](./Chapter6/tablePrinter.py)
+1. [**Table Printer**](./Chapter6/tablePrinter.py)
   
   Write a function named printTable() that takes a list of lists of strings and displays it in a well-organized table with each column right-justified. Assume that all the inner lists will contain the same number of strings. For example, the value could look like this:
 
@@ -125,21 +135,21 @@ Programming Challenges from the book:
 
 ###Chapter 7: Pattern Matching with Regular Expressions###
 
-1. [Strong Password Detection](./Chapter7/strongPasswordDetection.py)
+1. [**Strong Password Detection**](./Chapter7/strongPasswordDetection.py)
 
   Write a function that uses regular expressions to make sure the password string it is passed is strong. A strong password is defined as one that is at least eight characters long, contains both uppercase and lowercase characters, and has at least one digit. You may need to test the string against multiple regex patterns to validate its strength.
   
-2. [Regex Version of strip()](./Chapter7/regexVersionOfStrip.py)
+2. [**Regex Version of strip()**](./Chapter7/regexVersionOfStrip.py)
 
   Write a function that takes a string and does the same thing as the strip() string method. If no other arguments are passed other than the string to strip, then whitespace characters will be removed from the beginning and end of the string. Otherwise, the characters specified in the second argument to the function will be removed from the string.
   
 ###Chapter 8: Reading and Writing Files###
 
-1. [Extending the Multiclipboard](./Chapter8/extendingMulticlipboard.py)
+1. [**Extending the Multiclipboard**](./Chapter8/extendingMulticlipboard.py)
 
   Extend the multiclipboard program in this chapter so that it has a delete <keyword> command line argument that will delete a keyword from the shelf. Then add a delete command line argument that will delete all keywords.
   
-2. [Mad Libs](./Chapter8/madLibs.py)
+2. [**Mad Libs**](./Chapter8/madLibs.py)
 
   Create a Mad Libs program that reads in text files and lets the user add their own text anywhere the word ADJECTIVE, NOUN, ADVERB, or VERB appears in the text file. For example, a text file may look like this:
 
@@ -164,23 +174,23 @@ Programming Challenges from the book:
 
   The results should be printed to the screen and saved to a new text file.
   
-3. [Regex Search](./Chapter8/regexSearch.py)
+3. [**Regex Search**](./Chapter8/regexSearch.py)
 
   Write a program that opens all .txt files in a folder and searches for any line that matches a user-supplied regular expression. The results should be printed to the screen.
   
 ###Chapter 9: Organizing Files###
 
-1. [Selective Copy](./Chapter9/selectiveCopy.py)
+1. [**Selective Copy**](./Chapter9/selectiveCopy.py)
 
   Write a program that walks through a folder tree and searches for files with a certain file extension (such as .pdf or .jpg). Copy these files from whatever location they are in to a new folder.
   
-2. [Deleting Unneeded Files](./Chapter9/deletingUnneededFiles.py)
+2. [**Deleting Unneeded Files**](./Chapter9/deletingUnneededFiles.py)
 
   It’s not uncommon for a few unneeded but humongous files or folders to take up the bulk of the space on your hard drive. If you’re trying to free up room on your computer, you’ll get the most bang for your buck by deleting the most massive of the unwanted files. But first you have to find them.
   
   Write a program that walks through a folder tree and searches for exceptionally large files or folders—say, ones that have a file size of more than 100MB. (Remember, to get a file’s size, you can use os.path.getsize() from the os module.) Print these files with their absolute path to the screen.
   
-3. [Filling in the Gaps](./Chapter9/fillingInTheGaps.py)
+3. [**Filling in the Gaps**](./Chapter9/fillingInTheGaps.py)
 
   Write a program that finds all files with a given prefix, such as spam001.txt, spam002.txt, and so on, in a single folder and locates any gaps in the numbering (such as if there is a spam001.txt and spam003.txt but no spam002.txt). Have the program rename all the later files to close this gap.
   
@@ -188,7 +198,7 @@ Programming Challenges from the book:
 
 ###Chapter 10: Debugging###
 
-1. [Debugging Coin Toss](./Chapter10/debuggingCoinToss.py)
+1. [**Debugging Coin Toss**](./Chapter10/debuggingCoinToss.py)
 
   The following program is meant to be a simple coin toss guessing game. The player gets two guesses (it’s an easy game). However, the program has several bugs in it. Run through the program a few times to find the bugs that keep the program from working correctly.
 
@@ -210,12 +220,12 @@ Programming Challenges from the book:
 
 ###Chapter 11: Web Scraping###
 
-1. [Command Line Emailer](./Chapter11/commandLineEmailer.py)
+1. [**Command Line Emailer**](./Chapter11/commandLineEmailer.py)
 
   Write a program that takes an email address and string of text on the command line and then, using Selenium, logs into your email account and sends an email of the string to the provided address. (You might want to set up a separate email account for this program.)
   
   This would be a nice way to add a notification feature to your programs. You could also write a similar program to send messages from a Facebook or Twitter account.
   
-2. [Image Site Downloader](./Chapter11/imageSiteDownloader.py)
+2. [**Image Site Downloader**](./Chapter11/imageSiteDownloader.py)
 
   Write a program that goes to a photo-sharing site like Flickr or Imgur, searches for a category of photos, and then downloads all the resulting images. You could write a program that works with any photo site that has a search feature.
