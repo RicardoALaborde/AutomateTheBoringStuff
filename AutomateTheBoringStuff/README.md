@@ -4,12 +4,12 @@ Programming Challenges from the book:
 
 CHAPTERS|LINK TO BOOK|LINK TO SOLUTIONS
 --------|-----|-------
-Chapter 1|[Link to Page](https://automatetheboringstuff.com/chapter1/)|No Projects in this Chapter
-Chapter 2|[Link to Page](https://automatetheboringstuff.com/chapter2/)|[Solutions](./Chapter2/)
-Chapter 3|[Link to Page](https://automatetheboringstuff.com/chapter3/)|[Solutions](./Chapter3/)
-Chapter 4|[Link to Page](https://automatetheboringstuff.com/chapter4/)|[Solutions](./Chapter4/)
-Chapter 5|[Link to Page](https://automatetheboringstuff.com/chapter5/)|[Solutions](./Chapter5/)
-Chapter 6|[Link to Page](https://automatetheboringstuff.com/chapter6/)|[Solutions](./Chapter6/)
+[Chapter 1](./README.md#chapter-1-python-basics)|[Link to Page](https://automatetheboringstuff.com/chapter1/)|No Projects in this Chapter
+[Chapter 2](./README.md#chapter-2-flow-control)|[Link to Page](https://automatetheboringstuff.com/chapter2/)|[Solutions](./Chapter2/)
+[Chapter 3](./README.md#chapter-3-functions)|[Link to Page](https://automatetheboringstuff.com/chapter3/)|[Solutions](./Chapter3/)
+[Chapter 4](./README.md#chapter-4-lists)|[Link to Page](https://automatetheboringstuff.com/chapter4/)|[Solutions](./Chapter4/)
+[Chapter 5](./README.md#chapter-5-dictionaries-and-structuring-data)|[Link to Page](https://automatetheboringstuff.com/chapter5/)|[Solutions](./Chapter5/)
+[Chapter 6](./README.md#chapter-6-manipulating-strings)|[Link to Page](https://automatetheboringstuff.com/chapter6/)|[Solutions](./Chapter6/)
 Chapter 7|[Link to Page](https://automatetheboringstuff.com/chapter7/)|[Solutions](./Chapter7/)
 Chapter 8|[Link to Page](https://automatetheboringstuff.com/chapter8/)|[Solutions](./Chapter8/)
 Chapter 9|[Link to Page](https://automatetheboringstuff.com/chapter9/)|[Solutions](./Chapter9/)
