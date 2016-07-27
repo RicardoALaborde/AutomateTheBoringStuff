@@ -10,11 +10,11 @@ CHAPTERS|LINK TO BOOK|LINK TO SOLUTIONS
 [Chapter 4](./README.md#chapter-4-lists)|[Link to Page](https://automatetheboringstuff.com/chapter4/)|[Solutions](./Chapter4/)
 [Chapter 5](./README.md#chapter-5-dictionaries-and-structuring-data)|[Link to Page](https://automatetheboringstuff.com/chapter5/)|[Solutions](./Chapter5/)
 [Chapter 6](./README.md#chapter-6-manipulating-strings)|[Link to Page](https://automatetheboringstuff.com/chapter6/)|[Solutions](./Chapter6/)
-Chapter 7|[Link to Page](https://automatetheboringstuff.com/chapter7/)|[Solutions](./Chapter7/)
-Chapter 8|[Link to Page](https://automatetheboringstuff.com/chapter8/)|[Solutions](./Chapter8/)
-Chapter 9|[Link to Page](https://automatetheboringstuff.com/chapter9/)|[Solutions](./Chapter9/)
-Chapter 10|[Link to Page](https://automatetheboringstuff.com/chapter10/)|[Solutions](./Chapter10/)
-Chapter 11|[Link to Page](https://automatetheboringstuff.com/chapter11/)|[Solutions](./Chapter11/)
+[Chapter 7](./README.md#chapter-7-pattern-matching-wtih-regular-expressions)|[Link to Page](https://automatetheboringstuff.com/chapter7/)|[Solutions](./Chapter7/)
+[Chapter 8](./README.md#chapter-8-reading-and-writing-files)|[Link to Page](https://automatetheboringstuff.com/chapter8/)|[Solutions](./Chapter8/)
+[Chapter 9](./README.md#chapter-9-organizing-files)|[Link to Page](https://automatetheboringstuff.com/chapter9/)|[Solutions](./Chapter9/)
+[Chapter 10](./README.md#chapter-10-debugging)|[Link to Page](https://automatetheboringstuff.com/chapter10/)|[Solutions](./Chapter10/)
+[Chapter 11](./README.md#chapter-11-web-scraping)|[Link to Page](https://automatetheboringstuff.com/chapter11/)|[Solutions](./Chapter11/)
 Chapter 12|[Link to Page](https://automatetheboringstuff.com/chapter12/)|Solutions to be added
 Chapter 13|[Link to Page](https://automatetheboringstuff.com/chapter13/)|Solutions to be added
 Chapter 14|[Link to Page](https://automatetheboringstuff.com/chapter14/)|Solutions to be added
