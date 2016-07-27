@@ -7,7 +7,7 @@
 Title|Link|Description
 -----|-----|-----
 [Reddit Daily Programmer](./RedditDailyProgrammer)|[Link to subreddit](www.reddit.com/r/dailyprogrammer)|A collection of challenges made by reddit users
-[Automate the Boring Stuff](./AutomateTheBoringStuff)|[Link to online book](www.automatetheboringstuff.com)|A book made by Al Sweigart about the Python programming language
+[Automate the Boring Stuff](./AutomateTheBoringStuff)|[Link to online book](https://automatetheboringstuff.com/)|A book made by Al Sweigart about the Python programming language
 
 ---
 
@@ -15,4 +15,4 @@ Title|Link|Description
 
 ---
 
-* Current progress: [Chapter 12 from AutomateTheBoringStuff.com](www.automatetheboringstuff.com)
+* Current progress: [Chapter 12 from AutomateTheBoringStuff.com](https://automatetheboringstuff.com/)
