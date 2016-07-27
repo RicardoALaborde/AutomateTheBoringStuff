@@ -4,7 +4,7 @@ linked page on the page. The program should flag any pages that have a 404
 “Not Found” status code and print them out as broken links.
 '''
 
-import requests, bs4,sys,os,re
+import requests, bs4,sys,re
 #go to website as indicated on user input at the cmd line
 url = sys.argv[1]
 print('Checking links in %s... ' % url)
