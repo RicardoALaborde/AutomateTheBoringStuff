@@ -10,7 +10,18 @@ Chapter 3|[Link to Page](https://automatetheboringstuff.com/chapter3/)|[Solution
 Chapter 4|[Link to Page](https://automatetheboringstuff.com/chapter4/)|[Solutions](./Chapter4/)
 Chapter 5|[Link to Page](https://automatetheboringstuff.com/chapter5/)|[Solutions](./Chapter5/)
 Chapter 6|[Link to Page](https://automatetheboringstuff.com/chapter6/)|[Solutions](./Chapter6/)
-Chapter 7|[Link to Page](https://automatetheboringstuff.com/chapter7/)|[solutions](./Chapter7/)
+Chapter 7|[Link to Page](https://automatetheboringstuff.com/chapter7/)|[Solutions](./Chapter7/)
+Chapter 8|[Link to Page](https://automatetheboringstuff.com/chapter8/)|[Solutions](./Chapter8/)
+Chapter 9|[Link to Page](https://automatetheboringstuff.com/chapter9/)|[Solutions](./Chapter9/)
+Chapter 10|[Link to Page](https://automatetheboringstuff.com/chapter10/)|[Solutions](./Chapter10/)
+Chapter 11|[Link to Page](https://automatetheboringstuff.com/chapter11/)|[Solutions](./Chapter11/)
+Chapter 12|[Link to Page](https://automatetheboringstuff.com/chapter12/)|Solutions to be added
+Chapter 13|[Link to Page](https://automatetheboringstuff.com/chapter13/)|Solutions to be added
+Chapter 14|[Link to Page](https://automatetheboringstuff.com/chapter14/)|Solutions to be added
+Chapter 15|[Link to Page](https://automatetheboringstuff.com/chapter15/)|Solutions to be added
+Chapter 16|[Link to Page](https://automatetheboringstuff.com/chapter16/)|Solutions to be added
+Chapter 17|[Link to Page](https://automatetheboringstuff.com/chapter17/)|Solutions to be added
+Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutions to be added
 
 ###Chapter 1: Python Basics###
   
