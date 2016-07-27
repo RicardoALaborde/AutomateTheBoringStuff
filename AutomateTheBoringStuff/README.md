@@ -240,3 +240,7 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
 2. [**Image Site Downloader**](./Chapter11/imageSiteDownloader.py)
 
   Write a program that goes to a photo-sharing site like Flickr or Imgur, searches for a category of photos, and then downloads all the resulting images. You could write a program that works with any photo site that has a search feature.
+
+3. [**2048**](./Chapter11/2048.py)
+
+  2048 is a simple game where you combine tiles by sliding them up, down, left, or right with the arrow keys. You can actually get a fairly high score by repeatedly sliding in an up, right, down, and left pattern over and over again. Write a program that will open the game at https://gabrielecirulli.github.io/2048/ and keep sending up, right, down, and left keystrokes to automatically play the game.
