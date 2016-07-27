@@ -188,7 +188,7 @@ Programming Challenges from the book:
 
 ###Chapter 10: Debugging###
 
-1. Debugging Coin Toss
+1. [Debugging Coin Toss](./Chapter10/debuggingCoinToss.py)
 
   The following program is meant to be a simple coin toss guessing game. The player gets two guesses (it’s an easy game). However, the program has several bugs in it. Run through the program a few times to find the bugs that keep the program from working correctly.
 
