@@ -1,7 +1,9 @@
 #AUTOMATE THE BORING STUFF#
+---
 
-Programming Challenges from the book:
+####Programming Challenges from the book:####
 
+---
 CHAPTERS|LINK TO BOOK|LINK TO SOLUTIONS
 --------|-----|-------
 [Chapter 1](./README.md#chapter-1-python-basics)|[Link to Page](https://automatetheboringstuff.com/chapter1/)|No Projects in this Chapter
@@ -23,15 +25,21 @@ Chapter 16|[Link to Page](https://automatetheboringstuff.com/chapter16/)|Solutio
 Chapter 17|[Link to Page](https://automatetheboringstuff.com/chapter17/)|Solutions to be added
 Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutions to be added
 
+---
+
 ###Chapter 1: Python Basics###
   
 * **No challenges for this chapter**
+
+---
   
 ###Chapter 2: Flow Control###
   
 1. [**Quesiton 13**](./Chapter2/Chapter2_Q13.py)
 
   Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+
+---
 
 ###Chapter 3: Functions###
 
@@ -43,6 +51,7 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
 
   Remember to convert the return value from input() to an integer with the int() function; otherwise, it will be a string value.
 
+---
 
 ###Chapter 4: Lists###
 
@@ -86,6 +95,8 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
         ...OOO...
         ....O....
 
+---
+
 ###Chapter 5: Dictionaries and Structuring Data###
 
 1. [**Fantasy Game Inventory**](./Chapter5/fantasyGameInventory.py)
@@ -127,6 +138,8 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
         1 dagger
         Total number of items: 48
 
+---
+
 ###Chapter 6: Manipulating Strings###
 
 1. [**Table Printer**](./Chapter6/tablePrinter.py)
@@ -144,6 +157,8 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
         cherries Carol moose
           banana David goose
 
+---
+
 ###Chapter 7: Pattern Matching with Regular Expressions###
 
 1. [**Strong Password Detection**](./Chapter7/strongPasswordDetection.py)
@@ -153,6 +168,8 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
 2. [**Regex Version of strip()**](./Chapter7/regexVersionOfStrip.py)
 
   Write a function that takes a string and does the same thing as the strip() string method. If no other arguments are passed other than the string to strip, then whitespace characters will be removed from the beginning and end of the string. Otherwise, the characters specified in the second argument to the function will be removed from the string.
+  
+---
   
 ###Chapter 8: Reading and Writing Files###
 
@@ -188,6 +205,8 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
 3. [**Regex Search**](./Chapter8/regexSearch.py)
 
   Write a program that opens all .txt files in a folder and searches for any line that matches a user-supplied regular expression. The results should be printed to the screen.
+
+---
   
 ###Chapter 9: Organizing Files###
 
@@ -206,6 +225,8 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
   Write a program that finds all files with a given prefix, such as spam001.txt, spam002.txt, and so on, in a single folder and locates any gaps in the numbering (such as if there is a spam001.txt and spam003.txt but no spam002.txt). Have the program rename all the later files to close this gap.
   
   As an added challenge, write another program that can insert gaps into numbered files so that a new file can be added.
+
+---
 
 ###Chapter 10: Debugging###
 
@@ -228,6 +249,8 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
             print('You got it!')
           else:
             print('Nope. You are really bad at this game.')
+
+---
 
 ###Chapter 11: Web Scraping###
 
