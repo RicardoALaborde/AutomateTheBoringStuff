@@ -11,7 +11,7 @@ Title|Link|Description
 
 ---
 
-* This list will keep growing as I continue reading and learning and working on new challenges.
+* This list will keep growing as I continue reading, learning and working on new challenges.
 
 ---
 
