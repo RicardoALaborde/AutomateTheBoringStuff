@@ -7,6 +7,7 @@ py multiplicationTable.py 6
 '''
 import openpyxl,sys
 from openpyxl.cell import get_column_letter, column_index_from_string
+from openpyxl.styles import Font
 
 try:
     #validate we're getting an integer from the given arguments
@@ -19,12 +20,15 @@ sheet=workBook.active
 sheet.title = str(sys.argv[1]) + ' Multiplication Table'
 multiply = 1
 lstA = []
+fontObj = Font(bold=True)
 for i in range(int(sys.argv[1])):
     multiply +=1
     #columns
+    sheet[get_column_letter(multiply)+'1'].font = fontObj
     sheet[get_column_letter(multiply)+'1']=multiply-1
     lstA.append(multiply-1)
     #rows
+    sheet['A'+str(multiply)].font = fontObj
     sheet['A'+str(multiply)]=multiply-1
 
 letter = 2
