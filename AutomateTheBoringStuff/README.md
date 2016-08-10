@@ -17,7 +17,7 @@ CHAPTERS|LINK TO BOOK|LINK TO SOLUTIONS
 [Chapter 9](./README.md#chapter-9-organizing-files)|[Link to Page](https://automatetheboringstuff.com/chapter9/)|[Solutions](./Chapter9/)
 [Chapter 10](./README.md#chapter-10-debugging)|[Link to Page](https://automatetheboringstuff.com/chapter10/)|[Solutions](./Chapter10/)
 [Chapter 11](./README.md#chapter-11-web-scraping)|[Link to Page](https://automatetheboringstuff.com/chapter11/)|[Solutions](./Chapter11/)
-Chapter 12|[Link to Page](https://automatetheboringstuff.com/chapter12/)|Solutions to be added
+Chapter 12|[Link to Page](https://automatetheboringstuff.com/chapter12/)|[Solutions](./Chapter12/)
 Chapter 13|[Link to Page](https://automatetheboringstuff.com/chapter13/)|Solutions to be added
 Chapter 14|[Link to Page](https://automatetheboringstuff.com/chapter14/)|Solutions to be added
 Chapter 15|[Link to Page](https://automatetheboringstuff.com/chapter15/)|Solutions to be added
@@ -272,3 +272,19 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
 
   Write a program that, given the URL of a web page, will attempt to download every linked page on the page. The program should flag any pages that have a 404 “Not Found” status code and print them out as broken links.
   
+---
+
+###Chapter 12: Working with Excel Spreadsheets###
+
+1. [**Multiplication Table Maker**](./Chapter12/multiplicationTableMaker.py)
+
+  Create a program multiplicationTable.py that takes a number N from the command line and creates an N×N multiplication table in an Excel spreadsheet. For example, when the program is run like this:
+
+    py multiplicationTable.py 6
+  
+  ... it should create a spreadsheet that looks like Figure 12-11.
+  
+  ![Figure 12-11](https://automatetheboringstuff.com/images/000052.jpg)
+  *Figure 12-11*
+  
+  Row 1 and column A should be used for labels and should be in bold.
