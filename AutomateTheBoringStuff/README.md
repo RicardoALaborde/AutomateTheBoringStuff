@@ -17,7 +17,7 @@ CHAPTERS|LINK TO BOOK|LINK TO SOLUTIONS
 [Chapter 9](./README.md#chapter-9-organizing-files)|[Link to Page](https://automatetheboringstuff.com/chapter9/)|[Solutions](./Chapter9/)
 [Chapter 10](./README.md#chapter-10-debugging)|[Link to Page](https://automatetheboringstuff.com/chapter10/)|[Solutions](./Chapter10/)
 [Chapter 11](./README.md#chapter-11-web-scraping)|[Link to Page](https://automatetheboringstuff.com/chapter11/)|[Solutions](./Chapter11/)
-Chapter 12|[Link to Page](https://automatetheboringstuff.com/chapter12/)|[Solutions](./Chapter12/)
+[Chapter 12](./README.md#chapter-12-working-with-excel-spreadsheets)|[Link to Page](https://automatetheboringstuff.com/chapter12/)|[Solutions](./Chapter12/)
 Chapter 13|[Link to Page](https://automatetheboringstuff.com/chapter13/)|Solutions to be added
 Chapter 14|[Link to Page](https://automatetheboringstuff.com/chapter14/)|Solutions to be added
 Chapter 15|[Link to Page](https://automatetheboringstuff.com/chapter15/)|Solutions to be added
