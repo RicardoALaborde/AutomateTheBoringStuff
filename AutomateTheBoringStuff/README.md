@@ -285,6 +285,7 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
   ... it should create a spreadsheet that looks like Figure 12-11.
   
   ![Figure 12-11](https://automatetheboringstuff.com/images/000052.jpg)
+  
   *Figure 12-11*
   
   Row 1 and column A should be used for labels and should be in bold.
