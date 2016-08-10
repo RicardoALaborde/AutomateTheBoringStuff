@@ -13,7 +13,8 @@ try:
     #validate we're getting an integer from the given arguments
     int(sys.argv[1])
 except:
-    exit
+    print('Enter an integer')
+    sys.exit()
 
 workBook=openpyxl.Workbook()
 sheet=workBook.active
