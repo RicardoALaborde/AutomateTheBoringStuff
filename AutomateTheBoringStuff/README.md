@@ -289,3 +289,17 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
   *Figure 12-11*
   
   Row 1 and column A should be used for labels and should be in bold.
+  
+2. [**Blank Row Inserter**](./Chapter12/blankRowInserter.py)
+
+  Create a program blankRowInserter.py that takes two integers and a filename string as command line arguments. Let’s call the first integer N and the second integer M. Starting at row N, the program should insert M blank rows into the spreadsheet. For example, when the program is run like this:
+
+    python blankRowInserter.py 3 2 myProduce.xlsx
+
+  ... the “before” and “after” spreadsheets should look like Figure 12-12.
+  
+  ![Figure 12-12](https://automatetheboringstuff.com/images/000055.jpg)
+  
+  *Figure 12-12. Before (left) and after (right) the two blank rows are inserted at row 3*
+  
+  You can write this program by reading in the contents of the spreadsheet. Then, when writing out the new spreadsheet, use a for loop to copy the first N lines. For the remaining lines, add M to the row number in the output spreadsheet.
