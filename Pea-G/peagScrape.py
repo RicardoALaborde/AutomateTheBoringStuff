@@ -142,7 +142,7 @@ if hasChanged ==1:
     crs.execute('DELETE FROM sqlite_sequence WHERE name = "CARRETERA"')
     #insert road names into db
     for item in lstRoadNames:
-        crs.execute('INSERT INTO CARRETERA(carrName) VALUES(?)',(item))
+        crs.execute('INSERT INTO CARRETERA(carrName) VALUES(?)',(item,))
     hasChanged=1
 
 #index for getting next iterator of lstRoad
@@ -178,7 +178,7 @@ if hasChanged==1:
     crs.execute('DELETE FROM "sqlite_sequence" WHERE name = "ESTACIONES"')
     for item in lstStationNames:
         #insert station names into db
-        crs.execute('INSERT INTO ESTACIONES(stationName) VALUES(?)',(item))
+        crs.execute('INSERT INTO ESTACIONES(stationName) VALUES(?)',(item,))
     hasChanged=1
 
 idx=0
