@@ -38,24 +38,26 @@ if len(sys.argv) > 1:
                         shelvefi.close()
                         break
                 break
-try:
-    fileShelve=shelve.open('credentials')
-    cr = fileShelve['credentials']
-    username = cr[0]
-    password = cr[1]
-    shelvefi.close()
-except:
-    shelvefi=shelve.open('credentials')
+
+sh=shelve.open('credentials')
+if 'credentials' in sh:
+    credentials = sh['credentials']
+    username = credentials[0]
+    password = credentials[1]
+    sh.close()
+else:
     print('First time use of this app has been detected. Please enter your gmail account credentials. These will be stored locally on your PC.')
     username = input('Enter your username: ')
     password = getpass.getpass('Enter your password: ')
-    credentials=[]
-    credentials.append(username)
-    credentials.append(password)
-    shelvefi['credentials']=credentials
-    shelvefi.close()
+    creds=[]
+    creds.append(username)
+    creds.append(password)
+    sh['credentials'] = creds
+    sh.close()
+
 
 def email_sender(user,passwd,input_message):
+    shelvefi = shelve.open('credentials')
     smtpserver = smtplib.SMTP("smtp.gmail.com",587)
     #tracking the mainframe ip address with a visual basic gui
     smtpserver.ehlo()
