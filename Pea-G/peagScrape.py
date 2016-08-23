@@ -39,10 +39,10 @@ if len(sys.argv) > 1:
                         break
                 break
 try:
-    shelvefi=shelve.open('credentials')
-    credentials = shelvefi['credentials']
-    username = credentials[0]
-    password = credentials[1]
+    fileShelve=shelve.open('credentials')
+    cr = fileShelve['credentials']
+    username = cr[0]
+    password = cr[1]
     shelvefi.close()
 except:
     shelvefi=shelve.open('credentials')
@@ -56,7 +56,6 @@ except:
     shelvefi.close()
 
 def email_sender(user,passwd,input_message):
-    shelvefi=shelve.open('credentials')
     smtpserver = smtplib.SMTP("smtp.gmail.com",587)
     #tracking the mainframe ip address with a visual basic gui
     smtpserver.ehlo()
@@ -87,7 +86,6 @@ def email_sender(user,passwd,input_message):
     to = shelvefi['toEmail']
     header = 'To:' + ", ".join(to) + '\n' + 'From: ' + user + '\n' + 'Subject:Changes in DTOP Toll Booth Data \n'
     msg = header+input_message
-    # msg['To'] = ", ".join(to)
     smtpserver.sendmail(user,to,msg)
     smtpserver.close()
 
