@@ -303,3 +303,14 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
   *Figure 12-12. Before (left) and after (right) the two blank rows are inserted at row 3*
   
   You can write this program by reading in the contents of the spreadsheet. Then, when writing out the new spreadsheet, use a for loop to copy the first N lines. For the remaining lines, add M to the row number in the output spreadsheet.
+
+3. [**Spreadsheet Cell Inverter**](./Chapter12/spreadsheetCellInverter.py)
+
+  Write a program to invert the row and column of the cells in the spreadsheet. For example, the value at row 5, column 3 will be at row 3, column 5 (and vice versa). This should be done for all cells in the spreadsheet. For example, the “before” and “after” spreadsheets would look something like Figure 12-13.
+  
+  ![Figure 12-13](https://automatetheboringstuff.com/images/000079.jpg)
+  
+  *Figure 12-13. The spreadsheet before (top) and after (bottom) inversion*
+
+  You can write this program by using nested for loops to read in the spreadsheet’s data into a list of lists data structure. This data structure could have sheetData[x][y] for the cell at column x and row y. Then, when writing out the new spreadsheet, use sheetData[y][x] for the cell at column x and row y.
+  
