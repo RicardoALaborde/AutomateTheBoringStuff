@@ -19,7 +19,7 @@ CHAPTERS|LINK TO BOOK|LINK TO SOLUTIONS
 [Chapter 11](./README.md#chapter-11-web-scraping)|[Link to Page](https://automatetheboringstuff.com/chapter11/)|[Solutions](./Chapter11/)
 [Chapter 12](./README.md#chapter-12-working-with-excel-spreadsheets)|[Link to Page](https://automatetheboringstuff.com/chapter12/)|[Solutions](./Chapter12/)
 [Chapter 13](./README.md#chapter-13-working-with-pdf-and-word-documents)|[Link to Page](https://automatetheboringstuff.com/chapter13/)|[Solutions](./Chapter13/)
-Chapter 14|[Link to Page](https://automatetheboringstuff.com/chapter14/)|Solutions to be added
+[Chapter 14](./README.md#chapter-14-working-with-csv-files-and-json-data)|[Link to Page](https://automatetheboringstuff.com/chapter14/)|[Solutions](./Chapter14/)
 Chapter 15|[Link to Page](https://automatetheboringstuff.com/chapter15/)|Solutions to be added
 Chapter 16|[Link to Page](https://automatetheboringstuff.com/chapter16/)|Solutions to be added
 Chapter 17|[Link to Page](https://automatetheboringstuff.com/chapter17/)|Solutions to be added
@@ -361,3 +361,41 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
   Say you have an encrypted PDF that you have forgotten the password to, but you remember it was a single English word. Trying to guess your forgotten password is quite a boring task. Instead you can write a program that will decrypt the PDF by trying every possible English word until it finds one that works. This is called a brute-force password attack. Download the text file dictionary.txt from http://nostarch.com/automatestuff/. This dictionary file contains over 44,000 English words with one word per line.
   
   Using the file-reading skills you learned in Chapter 8, create a list of word strings by reading this file. Then loop over each word in this list, passing it to the decrypt() method. If this method returns the integer 0, the password was wrong and your program should continue to the next password. If decrypt() returns 1, then your program should break out of the loop and print the hacked password. You should try both the uppercase and lower-case form of each word. (On my laptop, going through all 88,000 uppercase and lowercase words from the dictionary file takes a couple of minutes. This is why you shouldn’t use a simple English word for your passwords.)
+
+---
+
+###Chapter 14: Working with CSV Files and JSON Data###
+
+1. [**Excel-to-CSV Converter**](./Chapter14/excelToCsvConverter.py)
+
+  Excel can save a spreadsheet to a CSV file with a few mouse clicks, but if you had to convert hundreds of Excel files to CSVs, it would take hours of clicking. Using the openpyxl module from Chapter 12, write a program that reads all the Excel files in the current working directory and outputs them as CSV files.
+
+  A single Excel file might contain multiple sheets; you’ll have to create one CSV file per sheet. 
+  
+  The filenames of the CSV files should be: 
+  
+      <excel filename>_<sheet title>.csv 
+  
+  where <excel filename> is the filename of the Excel file without the file extension (for example, 'spam_data', not 'spam_data.xlsx') and <sheet title> is the string from the Worksheet object’s title variable.
+
+  This program will involve many nested for loops. The skeleton of the program will look something like this:
+
+      for excelFile in os.listdir('.'):
+          # Skip non-xlsx files, load the workbook object.
+          for sheetName in wb.get_sheet_names():
+              # Loop through every sheet in the workbook.
+              sheet = wb.get_sheet_by_name(sheetName)
+      
+              # Create the CSV filename from the Excel filename and sheet title.
+              # Create the csv.writer object for this CSV file.
+      
+              # Loop through every row in the sheet.
+              for rowNum in range(1, sheet.get_highest_row() + 1):
+                  rowData = []    # append each cell to this list
+                  # Loop through each cell in the row.
+                  for colNum in range(1, sheet.get_highest_column() + 1):
+                      # Append each cell's data to rowData.
+      
+                  # Write the rowData list to the CSV file.
+      
+              csvFile.close()
