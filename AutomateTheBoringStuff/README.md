@@ -20,7 +20,7 @@ CHAPTERS|LINK TO BOOK|LINK TO SOLUTIONS
 [Chapter 12](./README.md#chapter-12-working-with-excel-spreadsheets)|[Link to Page](https://automatetheboringstuff.com/chapter12/)|[Solutions](./Chapter12/)
 [Chapter 13](./README.md#chapter-13-working-with-pdf-and-word-documents)|[Link to Page](https://automatetheboringstuff.com/chapter13/)|[Solutions](./Chapter13/)
 [Chapter 14](./README.md#chapter-14-working-with-csv-files-and-json-data)|[Link to Page](https://automatetheboringstuff.com/chapter14/)|[Solutions](./Chapter14/)
-Chapter 15|[Link to Page](https://automatetheboringstuff.com/chapter15/)|Solutions to be added
+[Chapter 15](./README.md#chapter-15-keeping-time-scheduling-tasks-and-launching-programs)|[Link to Page](https://automatetheboringstuff.com/chapter15/)|[Solutions](./Chapter15/)
 Chapter 16|[Link to Page](https://automatetheboringstuff.com/chapter16/)|Solutions to be added
 Chapter 17|[Link to Page](https://automatetheboringstuff.com/chapter17/)|Solutions to be added
 Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutions to be added
@@ -399,3 +399,31 @@ Chapter 18|[Link to Page](https://automatetheboringstuff.com/chapter18/)|Solutio
                   # Write the rowData list to the CSV file.
       
               csvFile.close()
+
+---
+
+###Chapter 15: Keeping Time, Scheduling Tasks, and Launching Programs###
+
+1. [**Prettified Stopwatch**](./Chapter15/prettifiedStopwatch.py)
+
+  Expand the stopwatch project from this chapter so that it uses the rjust() and ljust() string methods to “prettify” the output. (These methods were covered in Chapter 6.) Instead of output such as this:
+
+      Lap #1: 3.56 (3.56)
+      Lap #2: 8.63 (5.07)
+      Lap #3: 17.68 (9.05)
+      Lap #4: 19.11 (1.43)
+  
+  ... the output will look like this:
+
+      Lap # 1:  3.56 (  3.56)
+      Lap # 2:  8.63 (  5.07)
+      Lap # 3: 17.68 (  9.05)
+      Lap # 4: 19.11 (  1.43)
+  
+  Note that you will need string versions of the lapNum, lapTime, and totalTime integer and float variables in order to call the string methods on them.
+
+  Next, use the pyperclip module introduced in Chapter 6 to copy the text output to the clipboard so the user can quickly paste the output to a text file or email.
+  
+2. [**Scheduled Web Comic Downloader**](./Chapter15/scheduledWebDownloader.py)
+
+  Write a program that checks the websites of several web comics and automatically downloads the images if the comic was updated since the program’s last visit. Your operating system’s scheduler (Scheduled Tasks on Windows, launchd on OS X, and cron on Linux) can run your Python program once a day. The Python program itself can download the comic and then copy it to your desktop so that it is easy to find. This will free you from having to check the website yourself to see whether it has updated. (A list of web comics is available at http://nostarch.com/automatestuff/.)
