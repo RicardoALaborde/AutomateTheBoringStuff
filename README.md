@@ -15,4 +15,4 @@ Title|Link|Description
 
 ---
 
-* Current progress: [Chapter 15 from AutomateTheBoringStuff.com](https://automatetheboringstuff.com/)
+* Current progress: [Chapter 16 from AutomateTheBoringStuff.com](https://automatetheboringstuff.com/)
