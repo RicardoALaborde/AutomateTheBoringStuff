@@ -10,7 +10,7 @@ Easy||
 Intermediate|[Link](./README.md#Intermediate)|
 Hard||
 
-* Current progress: [Challenge 2 - The 2/22 Promotion](Challenge2 - The 2-22 Promotion.sql)
+* Current progress: [Challenge 2 - The 2/22 Promotion](./Challenge2 - The 2-22 Promotion.sql)
 
 ---
 
@@ -21,8 +21,8 @@ Hard||
 
 Title|
 -----|
-[Year over Year Comparisons](/Challenge1 - Year over Year Comparisons.SQL)|
-[The 2/22 Promotion](/Challenge2 - The 2-22 Promotion.SQL)|
+[Year over Year Comparisons](./Challenge1 - Year over Year Comparisons.sql)|
+[The 2/22 Promotion](./Challenge2 - The 2-22 Promotion.sql)|
 
 ---
 
