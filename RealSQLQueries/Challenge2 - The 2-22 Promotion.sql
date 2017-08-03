@@ -52,49 +52,19 @@ SELECT
 		 ELSE
 			'No order change and pay historical freight'
 		 END,
-	PotentialGain = 
-		CASE WHEN a.SubTotal >= 1700 AND a.SubTotal < 2000 THEN
-				2000 - a.SubTotal
-		ELSE
-		0
-		END,
-	PotentialFreightLoss = 
-		CASE WHEN a.SubTotal >= 1700 THEN
-				0.22
-		ELSE
-			a.Freight
-		END 
-			-
-		a.Freight,
-	NetGainLoss = 
-		CASE WHEN a.SubTotal >= 1700 AND a.SubTotal < 2000 THEN
-					2000 - a.SubTotal
-		ELSE
-			0
-		END 
-			-
-		CASE WHEN a.SubTotal >= 1700 THEN
-					0.22
-		ELSE
-			a.Freight
-		END 
-			-
-		a.Freight
+	PotentialGain = CASE WHEN a.SubTotal >= 1700 AND a.SubTotal < 2000 THEN 2000 - a.SubTotal ELSE 0 END,
+	PotentialFreightLoss = CASE WHEN a.SubTotal >= 1700 THEN 0.22 ELSE a.Freight END - a.Freight,
+	NetGainLoss = CASE WHEN a.SubTotal >= 1700 AND a.SubTotal < 2000 THEN 2000 - a.SubTotal ELSE 0 END 
+				+ CASE WHEN a.SubTotal >= 1700 THEN 0.22 ELSE a.Freight END 
+				- a.Freight
 INTO #data
-FROM 
-	Sales.SalesOrderHeader a
-INNER JOIN
-	Person.Address b
-		ON
-			a.BillToAddressID = b.AddressID
-INNER JOIN
-	Person.StateProvince c
-		ON
-			b.StateProvinceID = c.StateProvinceID
-WHERE
-	c.Name = 'California'
-AND
-	a.OrderDate BETWEEN '7-1-'+ @FiscalYear AND DATEADD(month,12,'7-1-' + @FiscalYear )
+FROM Sales.SalesOrderHeader a
+INNER JOIN Person.Address b ON a.BillToAddressID = b.AddressID
+INNER JOIN Person.StateProvince c ON b.StateProvinceID = c.StateProvinceID
+WHERE c.Name = 'California'
+AND a.OrderDate BETWEEN '7-1-'+ @FiscalYear AND DATEADD(month,12,'7-1-' + @FiscalYear )
+
+SELECT * FROM #data
 
 /**********PART 2**************/
 --------------------------------
@@ -104,7 +74,5 @@ SELECT
 	SUM(PotentialGain) as PotentialGain,
 	SUM(PotentialFreightLoss) as PotentialFreightLoss,
 	SUM(NetGainLoss) as NetGainLoss
-FROM 
-	#data
-GROUP BY
-	PotentialPromoEffect
+FROM #data
+GROUP BY PotentialPromoEffect
