@@ -18,4 +18,4 @@ Title|Link|Description
 
 
 * Current progress for Automate The Boring Stuff: [Chapter 16 from AutomateTheBoringStuff.com](https://automatetheboringstuff.com/)
-* Current progress for Real SQL Queries: [Challenge 2](./RealSQLQueries/Challenge2 - The 2-22 Promotion.sql)
+* Current progress for Real SQL Queries: [Challenge 2](RealSQLQueries/Challenge2 - The 2-22 Promotion.sql)
