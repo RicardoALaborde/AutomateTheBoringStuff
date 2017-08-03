@@ -15,6 +15,9 @@ Hard||
 ---
 
 ###Easy###
+Title|
+----|
+[Upsell Tuesdays](./Challenge4%20-%20Upsell%20Tuesdays.sql)
 
 ---
 ###Intermediate###
