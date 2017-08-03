@@ -10,11 +10,12 @@ Easy||
 Intermediate|[Link](./README.md#Intermediate)|
 Hard||
 
-* Current progress: [Challenge 2 - The 2/22 Promotion](Challenge2%20-%20The%202-22%20Promotion.sql)
+* Current progress: [Challenge 4: Upsell Tuesdays](./Challenge4%20-%20Upsell%20Tuesdays.sql)
 
 ---
 
 ###Easy###
+
 Title|
 ----|
 [Upsell Tuesdays](./Challenge4%20-%20Upsell%20Tuesdays.sql)
