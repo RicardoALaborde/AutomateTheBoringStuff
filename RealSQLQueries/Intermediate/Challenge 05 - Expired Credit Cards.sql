@@ -35,4 +35,28 @@
 Script Author: Ricardo Laborde
 ************************************************************************/
 
+IF OBJECT_ID('tempdb.dbo.#Orders') IS NOT NULL
+BEGIN
+	DROP TABLE #Orders
+END
 
+SELECT DISTINCT
+	b.CreditCardID
+	,b.CardType
+	,EOMONTH(CAST(CAST(b.ExpYear as varchar) + '-' + CAST(b.ExpMonth as varchar) + '-01' as date)) as ExpirationDate
+	,FIRST_VALUE(a.OrderDate) OVER(PARTITION BY b.CreditCardID ORDER BY a.OrderDate desc) LastOrderDate
+	,SUM(CASE WHEN a.OrderDate <= EOMONTH(CAST(CAST(b.ExpYear as varchar) + '-' + CAST(b.ExpMonth as varchar) + '-01' as date)) THEN 1 ELSE 0 END) OVER(PARTITION BY b.CreditCardID) Before
+	,SUM(CASE WHEN a.OrderDate > EOMONTH(CAST(CAST(b.ExpYear as varchar) + '-' + CAST(b.ExpMonth as varchar) + '-01' as date)) THEN 1 ELSE 0 END) OVER(PARTITION BY b.CreditCardID) 'After'
+INTO #Orders
+FROM AdventureWorks2012.Sales.SalesOrderHeader a
+INNER JOIN AdventureWorks2012.Sales.CreditCard b ON a.CreditCardID = b.CreditCardID
+--Solution to first part--
+SELECT * FROM #Orders
+
+--Solution to Second part--
+SELECT 
+	CardType
+	,SUM(BeforeSales) as Before
+	,SUM(AfterSales) as 'After'
+FROM #Orders
+GROUP BY CardType
