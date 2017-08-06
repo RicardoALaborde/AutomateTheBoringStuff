@@ -18,8 +18,8 @@ Hard||
 
 Title|
 ----|
-[Challenge 4: Upsell Tuesdays](./Beginner/Challenge%2004%20-%20Upsell%20Tuesdays.sql)
-[Challenge 6: Print Catalog](./Beginner/Challenge%2006%20-%20Print%20Catalog.sql)|
+[Challenge 4: Upsell Tuesdays](./Easy/Challenge%2004%20-%20Upsell%20Tuesdays.sql)
+[Challenge 6: Print Catalog](./Easy/Challenge%2006%20-%20Print%20Catalog.sql)|
 
 ---
 ###Intermediate###
