@@ -6,7 +6,7 @@
 
 Difficulty|Link|
 -----|-----|
-Easy|[Link](.README.md#Easy)|
+Easy|[Link](./README.md#Easy)|
 Intermediate|[Link](./README.md#Intermediate)|
 Hard||
 
