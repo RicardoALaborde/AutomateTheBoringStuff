@@ -18,7 +18,8 @@ Hard||
 
 Title|
 ----|
-[Challenge 4: Upsell Tuesdays](./Intermediate/Challenge%2004%20-%20Upsell%20Tuesdays.sql)
+[Challenge 4: Upsell Tuesdays](./Beginner/Challenge%2004%20-%20Upsell%20Tuesdays.sql)
+[Challenge 6: Print Catalog](./Beginner/Challenge%2006%20-%20Print%20Catalog.sql)|
 
 ---
 ###Intermediate###
@@ -29,6 +30,7 @@ Title|
 [Challenge 2: The 2/22 Promotion](./Intermediate/Challenge%2002%20-%20The%202-22%20Promotion.sql)|
 [Challenge 3: Ten Million Dollar Benchmark](./Intermediate/Challenge%2003%20-%20Ten%20Million%20Dollar%20Benchmark.sql)|
 [Challenge 5: Expired Credit Cards](./Intermediate/Challenge%2005%20-%20Expired%20Credit%20Cards.sql)|
+
 
 
 ---
